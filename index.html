@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="js-file.js" defer></script>
+</head>
+
+<body>
+    <h1>Etch-A-Sketch</h1>
+    <div id="container"></div>
+    <div id="buttonContainer">
+        <button id="colorMode" class = 'toggle'>Color Mode</button>
+        <button id="rainbowMode" class = 'toggle'>Rainbow Mode</button>
+        <button id="eraser" class = 'toggle'>Eraser</button>
+        <button id="clear" class = 'toggle'>Clear</button>
+    </div>
+
+    <div class ='slide'>
+        <div id="sizeValue" class="size-value"> 16 x 16</div>
+
+        <input type="range" min="2" max="100" value="16" class='myRange' id="sizeSlider">
+    </div>
+</body>
+
+
+</html>
